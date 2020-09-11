@@ -75,8 +75,8 @@ public class HandwrittenDigitsClassification extends JPanel implements ActionLis
 	}
 	
 	private static void getNetworkAccuracy() {
-		int[] labels = MnistReader.getLabels("t10k-labels.idx1-ubyte");
-		List<int[][]> images = MnistReader.getImages("t10k-images.idx3-ubyte");
+		int[] labels = MnistReader.getLabels("train-labels.idx1-ubyte");
+		List<int[][]> images = MnistReader.getImages("train-images.idx3-ubyte");
 		ArrayList<double[]> inputs = new ArrayList<double[]>();
 		for(int[][] image: images) {
 			inputs.add(convertToInputs(image));
