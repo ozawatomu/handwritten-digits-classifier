@@ -1,0 +1,18 @@
+[inputNeuronCount] [hiddenNeuronCount] . . . [hiddenNeuronCount] [outputNeuronCount] [learningRate]
+[connections1Col1Row1] . . . [connections1Col1RowX]
+.
+.
+.
+[connections1ColXRow1] . . . [connections1ColXRowX]
+
+.
+
+.
+
+.
+
+[connectionsXCol1Row1] . . . [connectionsXCol1RowX]
+.
+.
+.
+[connectionsXColXRow1] . . . [connectionsXColXRowX]
