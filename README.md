@@ -1,6 +1,6 @@
 # handwritten-digits-classifier
 
-<img src="Handwritten_Digits_Demo.gif" width="200" alt="Program Demo">
+<img src="Handwritten_Digits_Demo.gif" width="600" alt="Program Demo">
 
 This is a program that lets you write your own decimal digit and have it be classified using a neural network trained using a handwritten digit dataset provided by MNIST.
 
